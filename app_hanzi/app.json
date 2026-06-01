@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "app_hanzi",
+    "slug": "app-hanzi",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#4CAF50"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.apphanzi"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#4CAF50"
+      },
+      "package": "com.apphanzi"
+    },
+    "plugins": [
+      "expo-sqlite"
+    ]
+  }
+}
